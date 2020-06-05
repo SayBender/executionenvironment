@@ -1,6 +1,7 @@
 # execution_environment
 Output from scripts that gathers execution environment information.
 - system 1: Amazon AWS instance
+```
 SUDO_GID=1000
 MAIL=/var/mail/USER
 USER=USER
@@ -219,7 +220,9 @@ xz                        5.2.4                h14c3975_4
 yaml                      0.1.7                had09818_2  
 zlib                      1.2.11               h7b6447c_3 
 
+```
 - system 2: Author's PC
+```
 SUDO_GID=1001
 MAIL=/var/mail/USER
 USER=USER
@@ -415,3 +418,4 @@ H/W path        Device           Class          Description
 /0/3            scsi2            storage        
 /0/3/0.0.0      /dev/cdrom       disk           DVD+-RW GTA0N
 /1              wlx44a56e3ceced  network        Wireless interface
+```
